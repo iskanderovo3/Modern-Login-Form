@@ -1,0 +1,101 @@
+/* Inder font */
+@import url(https://fonts.googleapis.com/css2?family=Inder&display=swap);
+*{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+body {
+  font-family: 'Inder', sans-serif;
+}
+.container{
+  background: #9e0ca6;
+  background: linear-gradient(97deg, rgba(158, 12, 166, 1) 0%, rgba(246, 61, 239, 1) 100%, rgba(252, 0, 226, 1) 100%);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box{
+  background-color: #eeeeeeba;
+  height: 40rem;
+  width: 27rem;
+  transform: rotate(-6deg);
+  border-radius: 20px;
+}
+.box-content{
+  background-color: #ebebeb;
+  height: 40rem;
+  width: 27rem;
+  transform: rotate(6deg);
+  border-radius: 20px;
+}
+.box__content-logo{
+  padding-top: 3rem;
+  text-align: center;
+}
+.box__content-text{
+  font-size: 30px;
+  font-weight: 500;
+  text-align: center;
+  padding: 2.3rem 0;
+}
+.box__content-form{
+  padding: 0 2rem;
+}
+.box__content__form-email label,
+.box__content__form-password label{
+  font-size: 18px;
+}
+.box__content__form-email input,
+.box__content__form-password input{
+  font-size: 18px;
+  width: 90%;
+  padding: 15px;
+  font-family: 'Inder', sans-serif;
+  border-radius: 20px;
+  outline: none;
+  border: 2px solid #9e0ca6;
+}
+.box__content__form-password{
+  margin-top: 2rem;
+}
+.box__content__form-btn{
+  width: 100%;
+  font-size: 18px;
+  font-family: 'Inder', sans-serif;
+  margin: 20px 0;
+  padding: 15px;
+  border-radius: 20px;
+  background-color: #9e0ca6;
+  color: #fff;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+.box__content__form-info{
+  color: gray;
+}
+.box__content__form-info span{
+  color: #000;
+}
+.box__content-links{
+  display: flex;
+  justify-content: center;
+  margin-top: 2rem;
+}
+.box__content-links li a i{
+  background-color: #9e0ca6;
+  margin: 10px;
+  padding: 15px;
+  color: #fff;
+  border-radius: 50%;
+  border: 2px solid #9e0ca6;
+}
+.box__content-links li a i:hover{
+  background-color: #ebebeb;
+  border: 2px solid #9e0ca6;
+  color: #000;
+}
